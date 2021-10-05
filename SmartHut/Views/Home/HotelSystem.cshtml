@@ -1,0 +1,12 @@
+﻿@{ ViewData["Title"] = "Hotellsystem"; }
+
+
+<div id="SmartHut"></div>
+
+<input id="JWTToken" type="hidden" value="@ViewData["JWTToken"]" />
+<input id="User" type="hidden" value="@ViewData["Email"]" />
+
+<div id="data">@User.Identity.Name</div>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/HotelSystem.js"></script>

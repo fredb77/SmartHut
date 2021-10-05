@@ -1,0 +1,19 @@
+﻿
+.room-item {
+    background-color: #8AC6FF;
+    padding: 10px 5px;
+    margin: 10px 0px;
+    border: 2px solid #0000FF;
+    border-radius: 25px;
+    min-height: 150px;
+}
+
+input {
+    width: 25px;
+    border: hidden;
+    background-color: #8AC6FF;
+}
+
+input:focus {
+    outline: none;
+}
